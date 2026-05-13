@@ -18,7 +18,7 @@ $ErrorActionPreference = "Stop"
 
 $bonsaiExe    = "$PSScriptRoot\.bonsai\Bonsai.exe"
 $libDir       = "$PSScriptRoot\src\Bonsai.GenICam\bin\Release\net472"
-$workflowFile = "$PSScriptRoot\test.bonsai"
+$workflowFile = "$PSScriptRoot\workflows\test.bonsai"
 
 # Bootstrap local Bonsai if not yet installed.
 if (!(Test-Path $bonsaiExe)) {
